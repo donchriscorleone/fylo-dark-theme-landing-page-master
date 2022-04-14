@@ -583,6 +583,31 @@ p {
     line-height: 1.5;
 }
 
+.footer .attribution {
+    position: absolute;
+    bottom: 10px;
+}
+
+.footer .attribution a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 1.4rem;
+    transition: color .5s ease-in-out;
+}
+
+.footer .attribution a:hover, .footer .attribution a:visited {
+    color: #aaa;
+}
+
+.link-icon {
+    width: 40px;
+}
+
+.footer__icon {
+    width: 10px;
+    fill: white;
+}
+
 @media screen and (min-width: 1000px) {
     .footer {
        min-height: initial;
